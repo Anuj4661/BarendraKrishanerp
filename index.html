@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>GreenRoot ERP — Bio-Fertilizer Accounting System</title>
+<title>Barendra ERP — Bio-Fertilizer Accounting System</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Mono:wght@400;500&family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 <style>
@@ -650,7 +650,7 @@
 <div id="loginScreen" style="display:flex;align-items:center;justify-content:center;min-height:100vh;background:linear-gradient(135deg,#1a3a2a 0%,#2d6a4f 60%,#1a3a2a 100%);position:fixed;inset:0;z-index:9999;">
   <div style="background:#fff;border-radius:20px;padding:40px 44px;width:100%;max-width:420px;box-shadow:0 24px 80px rgba(0,0,0,0.35);">
     <div style="text-align:center;margin-bottom:28px;">
-      <div id="loginLogo" style="font-family:'DM Serif Display',serif;font-size:1.8rem;color:#1a3a2a;margin-bottom:6px;">🌿 GreenRoot ERP</div>
+      <div id="loginLogo" style="font-family:'DM Serif Display',serif;font-size:1.8rem;color:#1a3a2a;margin-bottom:6px;">🌿 Barendra ERP</div>
       <div style="font-size:0.82rem;color:#9a9a8a;">Bio-Fertilizer Accounting System</div>
     </div>
     <div style="margin-bottom:14px;">
@@ -679,7 +679,7 @@
 
 <!-- TOP BAR -->
 <div class="topbar">
-  <div class="logo">🌿 <span>GreenRoot</span> ERP</div>
+  <div class="logo">🌿 <span>Barendra</span> ERP</div>
   <span class="fy-badge">FY 2024–25</span>
   <div class="entity-selector">
     <label>Viewing:</label>
@@ -1675,7 +1675,7 @@
     <div class="card">
       <div class="card-header"><div class="card-title">🏢 Company Information</div></div>
       <div class="form-grid" style="grid-template-columns:1fr;">
-        <div class="form-group"><label>Company / Business Name</label><input type="text" id="co_name" placeholder="e.g. GreenRoot Bio-Fertilizers Ltd."></div>
+        <div class="form-group"><label>Company / Business Name</label><input type="text" id="co_name" placeholder="e.g. Barendra Krishan Agro Industries."></div>
         <div class="form-group"><label>Tagline / Sub-heading</label><input type="text" id="co_tagline" placeholder="e.g. Organic Fertilizer Manufacturer"></div>
         <div class="form-group"><label>Head Office Address</label><textarea id="co_address" rows="2" placeholder="Full address"></textarea></div>
         <div class="form-group"><label>Phone</label><input type="text" id="co_phone" placeholder="01XXXXXXXXX, 01XXXXXXXXX"></div>
@@ -2440,10 +2440,10 @@
 
 <script>
 // ════════════════════════════════════════════════
-// GREENROOT ERP — DATA LAYER (localStorage)
+// Barendra ERP — DATA LAYER (localStorage)
 // ════════════════════════════════════════════════
 
-const STORAGE_KEY = 'greenroot_erp_data';
+const STORAGE_KEY = 'Barendra_erp_data';
 
 const DEFAULT_SALES = [
   { inv:'INV-0042', date:'14 Apr 2025', branch:'D.North', customer:'Agro Traders BD', product:'VermiGro 50kg', qty:42, price:2000, total:84000, status:'Paid', phone:'01711000001' },
@@ -3080,12 +3080,12 @@ document.addEventListener('DOMContentLoaded', () => {
 const CO_KEY = 'greenroot_company';
 
 const DEFAULT_CO = {
-  name: 'GreenRoot Bio-Fertilizers Ltd.',
-  tagline: 'Organic & Bio-Fertilizer Manufacturer',
-  address: 'Gazipur Industrial Zone, Gazipur, Dhaka, Bangladesh',
+  name: 'Barendra Krishan Agro Industries.',
+  tagline: 'Organic Vermicompost Manufacturer',
+  address: 'Mohadevpur, Naogaon, Bangladesh',
   phone: '01711-000000, 01811-000000',
-  email: 'info@greenrootbd.com',
-  website: 'www.greenrootbd.com',
+  email: 'barendrakrishan@gmail.com',
+  website: 'www.barendrakrishan.com',
   show_tin_bin: false,
   tin: '123-456-789',
   bin: '002345678-0201',
